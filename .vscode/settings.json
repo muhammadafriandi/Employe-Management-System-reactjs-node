@@ -1,8 +1,5 @@
 {
-    "editor.formatOnSave": true,
     "editor.formatOnPaste": true,
-    "workbench.editor.autoLockGroups": {
-        "default": true
-    },
+    "editor.formatOnSave": true,
     "editor.formatOnType": true
 }
