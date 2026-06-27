@@ -24,6 +24,8 @@ app.use("/api/auth", authRouter)
 app.use("/api/employees", employeeRouter)
 app.use("/api/profile", profileRouter)
 app.use("/api/attendance", attendanceRouter)
+
+
 await connectDB()
 
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`))
