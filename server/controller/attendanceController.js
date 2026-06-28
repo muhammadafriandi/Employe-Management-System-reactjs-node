@@ -1,5 +1,5 @@
-import Attendance from "../models/Attendace"
-import Employee from "../models/Employee"
+import Attendance from "../models/Attendace.js"
+import Employee from "../models/Employee.js"
 
 
 

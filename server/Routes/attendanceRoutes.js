@@ -1,6 +1,6 @@
 import Router from "express"
-import { protect } from "../middleware/auth"
-import { clockInOut, getAttendance } from "../controller/attendanceController"
+import { protect } from "../middleware/auth.js"
+import { clockInOut, getAttendance } from "../controller/attendanceController.js"
 
 
 const attendanceRouter = Router()

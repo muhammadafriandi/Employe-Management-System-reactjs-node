@@ -1,10 +1,9 @@
+import Employee from "../models/Employee.js"
+import { getEmployees } from "./employeeController.js"
+
 
 
 // Get Profile
-
-import Employee from "../models/Employee"
-import { getEmployees } from "./employeeController"
-
 // GET /api/profile
 export const getProfile = async (req, res) => {
   try {
