@@ -7,6 +7,9 @@ import authRouter from "./Routes/authRoutes.js"
 import employeeRouter from "./Routes/employeeRoutes.js"
 import profileRouter from "./Routes/profileRoutes.js"
 import attendanceRouter from "./Routes/attendanceRoutes.js"
+import leaveRouter from "./Routes/leaveRouter.js"
+import payslipRouter from "./Routes/payslipRoutes.js"
+import dashboardRouter from "./Routes/DashboardRoutes.js"
 
 
 const app = express()
@@ -24,6 +27,9 @@ app.use("/api/auth", authRouter)
 app.use("/api/employees", employeeRouter)
 app.use("/api/profile", profileRouter)
 app.use("/api/attendance", attendanceRouter)
+app.use("/api/leave", leaveRouter)
+app.use("/api/payslip", payslipRouter)
+app.use('/api/dashboard', dashboardRouter)
 
 
 await connectDB()

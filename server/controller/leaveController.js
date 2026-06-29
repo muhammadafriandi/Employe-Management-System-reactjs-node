@@ -1,5 +1,5 @@
 import Employee from "../models/Employee.js"
-import LeaveApplication from "../models/LeaveModels.js"
+import LeaveApplication from "../models/LeaveApplication.js"
 
 
 
