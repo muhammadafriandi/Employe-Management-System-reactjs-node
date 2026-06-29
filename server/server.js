@@ -2,7 +2,6 @@ import express from "express"
 import cors from "cors"
 import "dotenv/config"
 import multer from "multer"
-import connectDB from "./config/db.js"
 import authRouter from "./Routes/authRoutes.js"
 import employeeRouter from "./Routes/employeeRoutes.js"
 import profileRouter from "./Routes/profileRoutes.js"
@@ -10,6 +9,7 @@ import attendanceRouter from "./Routes/attendanceRoutes.js"
 import leaveRouter from "./Routes/leaveRouter.js"
 import payslipRouter from "./Routes/payslipRoutes.js"
 import dashboardRouter from "./Routes/DashboardRoutes.js"
+import connectDB from "./config/db.js"
 
 
 const app = express()
